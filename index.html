@@ -6,53 +6,52 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;600&family=Prata&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    
     <header>
-        <logo>
+        <div class="logo">
            <img src="logo.svg" alt="logo">
-        </logo>
+        </div>
 
-        <menu-list>
-            <li>О нас</li>
-            <li>Расписание</li>
-            <li>Площадка</li>
-        </menu-list>
+        <div class="menu-list">
+            <li class="menu-element">О нас</li>
+            <li class="menu-element">Расписание</li>
+            <li class="menu-element">Площадка</li>
+        </div>
 
-        <phone-number>
-            <phone-icon>
+        <div class="phone-number">
+            <div class="phone-icon">
                 <img src="phone-icon.svg" alt="phone number">
-            </phone-icon>
-            <number>+79166330753</number>
-        </phone-number>
+            </div>
+            <div class="number">+79166330753</div>
+        </div>
+   
+        <div class="intro">
+            <!--<img src="main-picture.svg" alt="heroes"> -->
+            <h1 class="main-title-what-we-do">Обучаем танцам</h1>
+            <p class="description">Школа бачаты и бальсы в Москве</p>
+            <button class="how-to-dance">Научиться танцевать</button>
+            <div class="social">
+                <p class="what-to-do">Напишите нам</p>
+                <li class="write-to-icons"><img src="whatsapp-icon.svg" alt="whatsapp"></li>
+                <li class="write-to-icons"><img src="insta-icon.svg" alt="instagram"></li>
+                <li class="write-to-icons"><img src="email-icon.svg" alt="email"></li>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <intro>
-            <img src="main-picture.svg" alt="heroes">
-            <h1>Обучаем танцам</h1>
-            <p-description>Школа бачаты и бальсы в Москве</p-description>
-            <button>Научиться танцевать</button>
-            <write-to-icons>
-                <li><img src="whatsapp-icon.svg" alt="whatsapp"></li>
-                <li><img src="insta-icon.svg" alt="instagram"></li>
-                <li><img src="email-icon.svg" alt="email"></li>
-            </write-to-icons>
-
-        </intro>
-
-        <sensual>
-            <img src="sensual-picture.svg" alt="sensual">
+        <div class="sensual">
+            <img src="sensual-picture.svg" alt="sensual" class="sensual-image">
             <h2>Bachata Sensual</h2>
             <p>Сегодня особой популярности набирает такой танец, как бачата сенсуал. Суть танца строится на особой близости между партнерами, поэтому резкие и быстрые движения практически отсутствуют.<br> Во время танца партнеры находятся в особой близости друг к другу, тем самым создавая интимную атмосферу. Дополняет полноту картины музыка, как правило, она имеет умеренный темп и особую мелодичность.</p>
             <button>Записаться в группу</button>
-        </sensual>
+        </div>
 
-        <trial>
+        <div class="trial">
             <img src="trial-picture.svg" alt="trial">
             <h1>Записаться на пробное занятие</h1>
             <p>Мы перезвоним вам в ближайшее время и всё расскажем.</p>
@@ -62,29 +61,29 @@
                 <li><button>Отправить</button></li>
             <p>Нажимая на кнопку вы даёте согласие на обработку персональных данных <!--ссылка--></p>  
             </input-form>
-        </trial>
+        </div>
 
-        <program>
+        <div class="program">
             <img src="program-picture.svg" alt="program">
             <h2>Учим танцевать "с нуля"</h2>
             <p>Программа обучения построена таким образом, чтобы ты начал танцевать максимально быстро.</p>
             <p>В два раза больше тренерского внимания, в два раза круче энергетика на занятиях!</p>
             <p>Большинство наших учеников раньше никогда не занимались танцами, а теперь покоряют танцполы на вечеринках, танцуют в парках и на набережных, и даже участвуют в соревнованиях.</p>
             <button class="reviews">Отзывы</button> <!--Заменить отзывы на горизонтальный скролл?? -->
-        <program>
-    </main>
+        </div>
+  
 
     <footer>
         <logo>
             <img>
         </logo>
 
-        <terms>
+        <div class="terms">
             <li>Политика конфиденциальности</li>
             <li>Соглашение на обработку персональных данных</li>
-        </terms>
+        </div>
 
-        <contacts>
+        <div class="contacts">
             <li>
                 <img src="whatsapp-icon.svg" alt="whatsapp"> 
             </li>
@@ -97,7 +96,7 @@
             <li>
                 <img src="phone-icon.svg" alt="phone number">
             </li>
-        </contacts>
+        </div>
     </footer>
 
 
