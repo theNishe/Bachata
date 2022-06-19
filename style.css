@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url(main-picture.svg);
+    background: url(/images/main-picture.svg);
     width: 1920px;
     height: 1110px;
 }
