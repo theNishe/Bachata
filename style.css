@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url(main-picture.svg);
+    background: url(/images/main-picture.svg);
     width: 1920px;
     height: 1110px;
 }
@@ -192,8 +192,6 @@ h1 {
     line-height: 135%;
     color: #141414;
     padding-top: 40px;
-
-
 }
 
 
@@ -220,7 +218,7 @@ h1 {
 
 .trial {
     margin-top: 100px;
-    background: url(trial-picture.svg);
+    background: url(/images/trial-picture.svg);
     width: 1920px;
     height: 800px;
 }
