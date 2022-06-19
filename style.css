@@ -143,6 +143,7 @@ h1 {
 
 .what-to-do {
     padding-left: 12px;
+    color: #FFFFFF;
 }
 
 .sensual {
@@ -183,7 +184,7 @@ h1 {
     
 }
 
-p {
+.sensual-description {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -191,13 +192,15 @@ p {
     line-height: 135%;
     color: #141414;
     padding-top: 40px;
+
+
 }
 
 
 .join-a-group-btn {
     border-color: #F46C20;
     border: 2px solid;
-    background-color: white;
+    background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
     width: 350px;
@@ -209,8 +212,104 @@ p {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-     /*зачем вообще флекс нужен + какие способы расставлять на странице объекты, кроме абсолюта?*/
+     /*зачем вообще флекс нужен + какие способы расставлять на странице объекты, кроме position? + как это в адаптиве?*/
     align-items: center;
     text-align: center;
     margin-top: 70px;
+}
+
+.trial {
+    margin-top: 100px;
+    background: url(trial-picture.svg);
+    margin-bottom: 100px;
+    width: 1920px;
+    height: 800px;
+}
+
+.text-trial {
+    position: relative;
+    top: 197px;
+    left: 825px;
+    width: 498px;
+}
+
+.trial-description {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 35px;
+
+}
+
+.trial-request {
+    width: 350px;
+    height: 387px;
+    position: relative;
+    top: -140px;
+    left: 1395px;
+    padding-left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.send-button {
+    border-color: #F46C20;
+    border: 2px solid;
+    background-color: transparent;
+    color: #F46C20;
+    border-radius: 40px;
+    width: 350px;
+    height: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+input {
+    border-color: #FFFFFF;
+    border: 2px solid;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 40px;
+    width: 350px;
+    height: 80px;
+
+}
+
+.personal-data-agreement {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    margin-top: 15px;
+
+}
+
+::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #C4C4C4;
+    padding-left: 35px;
 }
