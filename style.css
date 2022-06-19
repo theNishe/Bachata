@@ -86,7 +86,7 @@ h1 {
     top: 300px;
 }
 
-.description {
+.description-title {
     position: absolute;
     left: 120px;
     top: 410px;
@@ -221,7 +221,6 @@ h1 {
 .trial {
     margin-top: 100px;
     background: url(trial-picture.svg);
-    margin-bottom: 100px;
     width: 1920px;
     height: 800px;
 }
@@ -313,3 +312,33 @@ input {
     color: #C4C4C4;
     padding-left: 35px;
 }
+
+.program {
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 262px;
+}
+
+.program-title {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #141414;
+    margin: 5px;
+}
+
+.program-description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #141414;
+    padding-top: 40px;
+
+}
+
+
