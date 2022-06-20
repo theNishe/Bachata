@@ -86,7 +86,7 @@ h1 {
     top: 300px;
 }
 
-.description {
+.description-title {
     position: absolute;
     left: 120px;
     top: 410px;
@@ -143,6 +143,7 @@ h1 {
 
 .what-to-do {
     padding-left: 12px;
+    color: #FFFFFF;
 }
 
 .sensual {
@@ -183,7 +184,7 @@ h1 {
     
 }
 
-p {
+.sensual-description {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -195,9 +196,8 @@ p {
 
 
 .join-a-group-btn {
-    border-color: #F46C20;
-    border: 2px solid;
-    background-color: white;
+    border-color: 2px solid #F46C20;
+    background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
     width: 350px;
@@ -213,3 +213,123 @@ p {
     text-align: center;
     margin-top: 70px;
 }
+
+.trial {
+    margin-top: 100px;
+    background: url(/images/trial-picture.svg);
+    background-size: 100%;
+    background-position:0% 0%;
+    width: 1920px;
+    height: 800px;
+}
+
+.text-trial {
+    position: relative;
+    top: 197px;
+    left: 825px;
+    width: 498px;
+}
+
+.trial-description {
+    font-family: Montserrat;
+    font-size: 35px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 35px;
+
+}
+
+.trial-request {
+    width: 350px;
+    height: 387px;
+    position: relative;
+    top: -140px;
+    left: 1395px;
+    padding-left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.send-button {
+    border-color: #F46C20;
+    border: 2px solid;
+    background-color: transparent;
+    color: #F46C20;
+    border-radius: 40px;
+    width: 350px;
+    height: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+input {
+    border-color: #FFFFFF;
+    border: 2px solid;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 40px;
+    width: 350px;
+    height: 80px;
+
+}
+
+.personal-data-agreement {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    margin-top: 15px;
+
+}
+
+*::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #C4C4C4;
+    padding-left: 35px;
+}
+
+.program {
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 262px;
+}
+
+.program-title {
+    font-family: Playfair Display;
+    font-size: 40px;
+    text-align: left;
+    color: #141414;
+    margin: 5px;
+}
+
+.program-description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.35;
+    color: #141414;
+    padding-top: 40px;
+}
+
+
