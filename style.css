@@ -134,7 +134,7 @@ h1 {
 
 }
 
-.write-to-icons {
+.social li {
     width: 40px;
     height: 40px;
     display: inline-flex; 
@@ -330,6 +330,39 @@ input {
     line-height: 1.35;
     color: #141414;
     padding-top: 40px;
+    width: 492px;
+    height: 268px;
 }
+
+.reviews {
+    border: 2px solid #F46C20;
+    background-color: transparent;
+    color: #F46C20;
+    border-radius: 40px;
+    width: 350px;
+    height: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+}
+
+.program-image {
+    width: 830px;
+    height: 528px;
+    position: absolute;
+    top: 2860px;
+    left: 828px;
+   
+    
+}
+
+
 
 
