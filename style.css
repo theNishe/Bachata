@@ -334,9 +334,8 @@ input {
     height: 268px;
 }
 
-.reviews-button {
-    border-color: #F46C20;
-    border: 2px solid;
+.reviews {
+    border: 2px solid #F46C20;
     background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
@@ -344,14 +343,13 @@ input {
     height: 80px;
     font-family: 'Montserrat';
     font-style: normal;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 80px;
 
 }
 
