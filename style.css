@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url(main-picture.svg);
+    background: url(/images/main-picture.svg);
     width: 1920px;
     height: 1110px;
 }
@@ -192,14 +192,11 @@ h1 {
     line-height: 135%;
     color: #141414;
     padding-top: 40px;
-
-
 }
 
 
 .join-a-group-btn {
-    border-color: #F46C20;
-    border: 2px solid;
+    border-color: 2px solid #F46C20;
     background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
@@ -212,7 +209,6 @@ h1 {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-     /*зачем вообще флекс нужен + какие способы расставлять на странице объекты, кроме position? + как это в адаптиве?*/
     align-items: center;
     text-align: center;
     margin-top: 70px;
@@ -220,7 +216,9 @@ h1 {
 
 .trial {
     margin-top: 100px;
-    background: url(trial-picture.svg);
+    background: url(/images/trial-picture.svg);
+    background-size: 100%;
+    background-position:0% 0%;
     width: 1920px;
     height: 800px;
 }
@@ -235,9 +233,6 @@ h1 {
 .trial-description {
     font-family: Montserrat;
     font-size: 35px;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
     padding-top: 35px;
@@ -301,7 +296,7 @@ input {
 
 }
 
-::placeholder {
+*::placeholder {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -322,9 +317,6 @@ input {
 .program-title {
     font-family: Playfair Display;
     font-size: 40px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0em;
     text-align: left;
     color: #141414;
     margin: 5px;
@@ -335,7 +327,7 @@ input {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 135%;
+    line-height: 1.35;
     color: #141414;
     padding-top: 40px;
     width: 492px;
