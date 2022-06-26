@@ -4,14 +4,13 @@ body {
 
 header {
     background: url(/images/main-picture.svg);
-    width: 1920px;
     height: 1110px;
 }
 
 .logo {
     width: 209px;
     height: 88px;
-    padding-left: 120px;
+    
     padding-top: 40px;
 }
 
@@ -26,11 +25,9 @@ li {
     line-height: 24px;
     letter-spacing: 0em;
     color: white;
-    width: 356px;
     height: 24px;
-    position: absolute;
-    top: 70px;
-    left: 1176px;
+  
+
     display: flex;
     justify-content: space-between; 
 }
@@ -41,11 +38,10 @@ li {
 
 .phone-number {
     color: white;
-    width: 182px;
     height: 35px;
-    position: absolute;
-    left: 1618px;
-    top: 65px;
+ 
+  
+
     display: flex;
     justify-content: space-between;
   
@@ -65,8 +61,8 @@ li {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    position: relative;
-    top: 5px;
+ 
+   
 }
 
 h1 {
@@ -81,15 +77,15 @@ h1 {
 }
 
 .main-title-what-we-do {
-    position: absolute;
-    left: 120px;
-    top: 300px;
+   
+  
+ 
 }
 
 .description-title {
-    position: absolute;
-    left: 120px;
-    top: 410px;
+
+  
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -99,10 +95,9 @@ h1 {
 }
 
 .how-to-dance {
-    position: absolute;
-    left: 120px;
-    top: 585px;
-    width: 350px;
+    
+   
+   
     height: 80px;
     border-radius: 40px;
     background-color: #F46C20;
@@ -116,19 +111,13 @@ h1 {
 }
 
 .social {
-    position: absolute;
-    left: 157px;
-    top: 765px;
-    position: absolute;
-    width: 300px;
+   
     height: 80px;
-    left: 163px;
-    top: 765px;
+   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 100%;
     color: #FFFFFF;
     letter-spacing: 0.14em;
 
@@ -146,22 +135,20 @@ h1 {
     color: #FFFFFF;
 }
 
-main {
+main, header, footer {
     width: 100%;
     display: block;
 }
 
 .sensual {
-    margin-top: 100px;
-    margin-left: 262px;
-    width: 1396px;
+ 
     height: 594px;
 }
 
 .sensual>div {
     width: 38%;
     margin-right: 2%;
-    float: left;
+
 
 }
 
@@ -169,11 +156,9 @@ main {
 .text-sensual {
     margin-right: 0;
     display: inline-block;
-    position: absolute;
-    top: 1200px;
-    left: 1175px;
+   
     white-space: normal;
-    width: 483px;
+  
   
 }
 
@@ -205,7 +190,7 @@ main {
     background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
-    width: 350px;
+   
     height: 80px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -224,15 +209,12 @@ main {
     background: url(/images/trial-picture.svg);
     background-size: 100%;
     background-position:0% 0%;
-    width: 1920px;
+   
     height: 800px;
 }
 
 .text-trial {
-    position: relative;
-    top: 197px;
-    left: 825px;
-    width: 498px;
+   
 }
 
 .trial-description {
@@ -245,12 +227,10 @@ main {
 }
 
 .trial-request {
-    width: 350px;
+    
     height: 387px;
-    position: relative;
-    top: -140px;
-    left: 1395px;
-    padding-left: 72px;
+    
+   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -262,7 +242,7 @@ main {
     background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
-    width: 350px;
+    
     height: 80px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -283,7 +263,7 @@ input {
     background-color: transparent;
     color: #FFFFFF;
     border-radius: 40px;
-    width: 350px;
+   
     height: 80px;
 
 }
@@ -316,7 +296,7 @@ input {
 .program {
     width: 100%;
     margin-top: 100px;
-    padding-left: 262px;
+ 
 }
 
 .program-title {
@@ -335,7 +315,7 @@ input {
     line-height: 1.35;
     color: #141414;
     padding-top: 40px;
-    width: 492px;
+    
     height: 268px;
 }
 
@@ -344,7 +324,7 @@ input {
     background-color: transparent;
     color: #F46C20;
     border-radius: 40px;
-    width: 350px;
+   
     height: 80px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -359,39 +339,29 @@ input {
 }
 
 .program-image {
-    width: 830px;
-    height: 528px;
-    position: absolute;
-    top: 2860px;
-    left: 828px;
    
+    height: 528px;
+    
     
 }
 
 
 footer {
-    width: 1920px;
+   
     height: 220px;
     background: linear-gradient(269.59deg, #FDAAFA 0.19%, #B1DFFF 99.86%);
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
-    position: absolute;
-    top: 3488px;
+   
 }
 
-.logo {
-    display: inline-block;
-    padding-top: 41px;
-    padding-left: 120px;
-    width: 211px;
-    height: 88px;
-}
+
 
 .terms {
-    width: 600px;
-    padding-left: 72px;
-    display: inline-flex;
+
+ 
+    display: flex;
     margin-top: 64px; 
 }
 
@@ -401,22 +371,22 @@ footer {
     font-weight: 400;
     font-size: 20px;
    
-    width: 265px;
+    
     height: 65px;
     margin-right: 42px;
     color: #141414;
 }
 
 .terms li:last-child {
-    width: 307px;
+  
 }
 
 .contacts {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 64px;
-    padding-left: 424px;
+   
 }
 
 .contacts li {
@@ -429,7 +399,7 @@ footer {
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    width: 171px;
+   
     height: 31px;
     display: flex;
     align-items: center;
