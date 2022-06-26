@@ -146,6 +146,11 @@ h1 {
     color: #FFFFFF;
 }
 
+main {
+    width: 100%;
+    display: block;
+}
+
 .sensual {
     margin-top: 100px;
     margin-left: 262px;
@@ -364,5 +369,68 @@ input {
 }
 
 
+footer {
+    width: 1920px;
+    height: 220px;
+    background: linear-gradient(269.59deg, #FDAAFA 0.19%, #B1DFFF 99.86%);
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+    top: 3488px;
+}
 
+.logo {
+    display: inline-block;
+    padding-top: 41px;
+    padding-left: 120px;
+    width: 211px;
+    height: 88px;
+}
 
+.terms {
+    width: 600px;
+    padding-left: 72px;
+    display: inline-flex;
+    margin-top: 64px; 
+}
+
+.terms li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+   
+    width: 265px;
+    height: 65px;
+    margin-right: 42px;
+    color: #141414;
+}
+
+.terms li:last-child {
+    width: 307px;
+}
+
+.contacts {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+    padding-left: 424px;
+}
+
+.contacts li {
+    margin-left: 20px;
+}
+
+.contacts li:last-child {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 171px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+}
