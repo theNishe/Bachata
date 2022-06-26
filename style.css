@@ -3,6 +3,10 @@ body {
 }
 
 header {
+    display: flex;
+}
+
+.intro {
     background: url(/images/main-picture.svg);
     height: 1110px;
 }
@@ -137,7 +141,6 @@ h1 {
 
 main, header, footer {
     width: 100%;
-    display: block;
 }
 
 .sensual {
