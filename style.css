@@ -66,14 +66,12 @@ li {
 
 .phone-number {
   color: white;
-  height: 35px;
   align-items: center;
   display: flex;
 }
 
 .phone-icon {
   width: 35px;
-  height: 35px;
   margin-right: 5px;
 }
 
@@ -83,8 +81,6 @@ li {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -102,8 +98,6 @@ h1 {
   font-family: Playfair Display;
   font-size: 60px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0em;
   text-align: left;
   color: #f7f2f2;
   display: block;
@@ -144,7 +138,6 @@ h1 {
   font-weight: 300;
   font-size: 20px;
   color: #ffffff;
-  letter-spacing: 0.14em;
   box-sizing: border-box;
   flex-direction: column;
   width: 25%; 
@@ -178,12 +171,10 @@ footer {
 }
 
 .sensual > div {
-  width: 38%;
-  margin-right: 2%;
+  margin-right: 83px;
 }
 
 .text-sensual {
-  margin-right: 0;
   display: inline-block;
   white-space: normal;
   flex-wrap: wrap;
@@ -193,8 +184,6 @@ footer {
   font-family: Playfair Display;
   font-size: 40px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
   text-align: left;
   color: #141414;
   margin: 5px;
@@ -257,12 +246,13 @@ footer {
 
 }
 
+
 .trial-request {
-  height: 387px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-content: space-around;
 }
+
 
 .send-button {
   border: 2px solid #f46c20;
@@ -274,10 +264,7 @@ footer {
   font-style: normal;
   font-size: 25px;
   font-weight: 600;
-  line-height: 30px;
-  text-align: center;
   align-items: center;
-  text-align: center;
   display: flex;
   padding-left: 40px;
 }
@@ -289,6 +276,7 @@ input {
   color: #ffffff;
   border-radius: 40px;
   height: 80px;
+  margin-bottom: 28px;
 }
 
 .personal-data-agreement {
@@ -338,7 +326,6 @@ input {
   padding-top: 40px;
   flex-direction: column;
   padding-left: 120px;
-  width: 50%;
   margin-right: 70px;
 }
 
@@ -373,6 +360,8 @@ footer .logo {
   display: block;
   filter: invert(100%);
   margin-left: 120px;
+  padding: 50px 0;
+  
 }
 
 .terms {
@@ -386,13 +375,11 @@ footer .logo {
   font-weight: 400;
   font-size: 20px;
   color: #141414;
-}
-
-.terms li:not(first-child) {
-  display: block;
-  flex-wrap: wrap;
+  margin-right: 42px;
   width: 300px;
 }
+
+
 
 .contacts {
   display: flex;
@@ -411,7 +398,6 @@ footer .logo {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 30px;
   display: flex;
   align-items: center;
 }
