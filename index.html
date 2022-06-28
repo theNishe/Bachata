@@ -13,38 +13,45 @@
 <body>
     
     <header>
-        <div class="logo">
-           <img src="/images/logo.svg" alt="logo">
-        </div>
-
-        <div class="menu-list">
-            <li class="menu-element">О нас</li>
-            <li class="menu-element">Расписание</li>
-            <li class="menu-element">Площадка</li>
-        </div>
-
-        <div class="phone-number">
-            <div class="phone-icon">
-                <img src="/images/icons/phone-icon.svg" alt="phone number">
+        <div class="headerWrapper">
+            <div class="logo">
+               <img src="/images/logo.svg" alt="logo">
             </div>
-            <div class="number">+79166330753</div>
+    
+            <div class="headerRight">
+                <div class="menu-list">
+                    <li class="menu-element">О нас</li>
+                    <li class="menu-element">Расписание</li>
+                    <li class="menu-element">Площадка</li>
+                </div>
+        
+                <div class="phone-number">
+                    <div class="phone-icon">
+                        <img src="/images/icons/phone-icon.svg" alt="phone number">
+                    </div>
+                    <div class="number">+79166330753</div>
+                </div>
+
+            </div>
         </div>
-   
+    </header>
+    
+    
+    <main>
         <div class="intro">
             <h1 class="main-title-what-we-do">Обучаем танцам</h1>
             <p class="description-title">Школа бачаты и бальсы в Москве</p>
             <button class="how-to-dance">Научиться танцевать</button>
             <div class="social">
                 <p class="what-to-do">Напишите нам</p>
-                <li><img src="/images/icons/whatsapp-icon.svg" alt="whatsapp"></li>
-                <li><img src="/images/icons/insta-icon.svg" alt="instagram"></li>
-                <li><img src="/images/icons/email-icon.svg" alt="email"></li>
+                <div class="social-elements-container">
+                    <li><img src="/images/icons/whatsapp-icon.svg" alt="whatsapp"></li>
+                    <li><img src="/images/icons/insta-icon.svg" alt="instagram"></li>
+                    <li><img src="/images/icons/email-icon.svg" alt="email"></li>
+                </div>
             </div>
         </div>
-    </header>
 
-
-    <main>
         <div class="sensual">
             <div class="sensual-image">
                 <img src="/images/sensual-picture.svg" alt="sensual" >
@@ -57,18 +64,19 @@
         </div>
 
         <div class="trial">
-            
-            <div class="text-trial">
-                <h1>Записаться на пробное занятие</h1>
-                <p class="trial-description">Мы перезвоним вам в ближайшее время и всё расскажем.</p>
-            </div>
+            <div class="trial-container">       
+                <div class="text-trial">
+                    <h1>Записаться на пробное занятие</h1>
+                    <p class="trial-description">Мы перезвоним вам в ближайшее время и всё расскажем.</p>
+                </div>
 
-            <form class="trial-request">
-                <input class="name" placeholder="Ваше имя"></input>
-                <input class="clients-phone-number" placeholder="+7 (___) ___-__-__"></input>
-                <button class="send-button" type="button">Отправить</button>
-                <p class="personal-data-agreement">Нажимая на кнопку вы даёте согласие на обработку персональных данных <!--ссылка--></p>  
-            </form>    
+                <form class="trial-request">
+                    <input class="name" placeholder="Ваше имя"></input>
+                    <input class="clients-phone-number" placeholder="+7 (___) ___-__-__"></input>
+                    <button class="send-button" type="button">Отправить</button>
+                    <p class="personal-data-agreement">Нажимая на кнопку вы даёте согласие на обработку персональных данных </p>  
+                </form>    
+            </div>
         </div>
 
         <div class="program">
@@ -87,13 +95,10 @@
     </main>
 
     <footer>
-        <div class="logo">
-            <img src="/images/logo-black.svg">
-        </div>
-
         <div class="terms">
-            <li>Политика конфиденциальности</li>
-            <li>Соглашение на обработку персональных данных</li>
+                <li class="logo"><img src="/images/logo-black.svg"></li>
+                <li>Политика конфиденциальности</li>
+                <li>Соглашение на обработку персональных данных</li>
         </div>
 
         <div class="contacts">
@@ -109,9 +114,7 @@
             <li>
                 <img src="/images/icons/phone-icon.svg" alt="phone number">
             </li>
-            <li>
-                <p>+79166330753</p>
-            </li>
+            <li>+79166330753</li>
         </div>
     </footer>
 
