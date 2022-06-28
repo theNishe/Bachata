@@ -358,10 +358,8 @@ footer {
 
 footer .logo {
   display: block;
-  filter: invert(100%);
   margin-left: 120px;
   padding: 50px 0;
-  
 }
 
 .terms {
